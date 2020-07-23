@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="ServiceCallout">
+    <Basepaths>/get-data</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1595502587451</CreatedAt>
+    <CreatedBy>sagarsinghj@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ServiceCallout</DisplayName>
+    <LastModifiedAt>1595502587451</LastModifiedAt>
+    <LastModifiedBy>sagarsinghj@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:18af54edebac022c4414a033ba6ec094a50705f6b0c94f4a1b13f63805e5359ae8fa33f466f91faca84d69b51e69ed02a5468e8fd5a64f6d086d469cce169b02</ManifestVersion>
+    <Policies>
+        <Policy>AM-NewRequest</Policy>
+        <Policy>Assign-Message2</Policy>
+        <Policy>ParseJsonResponse</Policy>
+        <Policy>SC-ExternalAPI</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

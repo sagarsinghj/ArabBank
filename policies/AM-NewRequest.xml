@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-NewRequest">
+    <DisplayName>AM-NewRequest</DisplayName>
+    <Properties/>
+    <Set>
+        <Verb>GET</Verb>
+        <Path>/json</Path>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="true" transport="http" type="request">CalloutRequest</AssignTo>
+</AssignMessage>

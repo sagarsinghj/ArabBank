@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables name="ParseJsonResponse">
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source>calloutResponse</Source>
+    <VariablePrefix>mock</VariablePrefix>
+    <JSONPayload>
+        <Variable name="firstName">
+            <JSONPath>$.firstName</JSONPath>
+        </Variable>
+        <Variable name="lastName">
+            <JSONPath>$.lastName</JSONPath>
+        </Variable>
+        <Variable name="city">
+            <JSONPath>$.city</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

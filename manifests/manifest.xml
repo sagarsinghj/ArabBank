@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-NewRequest" version="SHA-512:a34fd396389e4eeb657c6ed48b682ec096cfd6f03e6beb334b4cd29325868450912565355aba9e1349b2aa9ef9445d6d623aa12ea25ac0ae4a2dc1dbc175a014"/>
+        <VersionInfo resourceName="Assign-Message2" version="SHA-512:068f19e27d157ae5e8ca6da7fe62c3c57c48b8f61e21ead901f3dba33e6bf297e5647ab182bdee4a616e92db35eb90bcd4eafe7fc6ce28cbd1deeca91d476d57"/>
+        <VersionInfo resourceName="ParseJsonResponse" version="SHA-512:e6c7a8a059fe98b802ef1d09dc776054c23ecbf984e5bfcb773a60df762508916d04ab4eedc4e53e995f65e3f2c223ab16a2f3f2b099521da889c91565bd1095"/>
+        <VersionInfo resourceName="SC-ExternalAPI" version="SHA-512:2ed3722262efa5f5f88884a25329cc1f999c605225202109479ed3b4a5800710c02b327f9a818150682840f39011d0d14876e63dd736f0bc7b86fce41e7228d9"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6b3555ff41e5099e47ca2ad5629c1c8bb693d31c2b8b11d10a26314885537c0aef9922ad2cc03fcf844f61effaa324977db2e7422bf51862c2ce4a043f900763"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:20c6ae91935ef07eebab32475fae20e19fd43b5b3cf98e0320b55cf3771ce520a346e645a80c29d7140e84b85ed2bca7454bfec49e82482b3eb48b2d3256b919"/>
+    </TargetEndpoints>
+</Manifest>

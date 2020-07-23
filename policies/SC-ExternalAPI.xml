@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SC-ExternalAPI">
+    <DisplayName>SC-ExternalAPI</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="CalloutRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>http://mocktarget.apigee.net/</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>
